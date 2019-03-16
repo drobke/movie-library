@@ -1,1 +1,53 @@
+@import "app/shared/styles/fonts";
+
 /* You can add global styles to this file, and also import other style files */
+// variables
+
+$color-white: #fff;
+$color-black: #000;
+$error: #fe6363;
+$dark-primary: #0097a7;
+$light-primary: #b2ebf2;
+$primary: #00bcd4;
+$text: #ffffff;
+$accent: #009688;
+$primary-text: #212121;
+$secondary-text: #757575;
+$divider: #bdbdbd;
+
+
+// defaults
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'AvenirLTStd-Roman',sans-serif;
+}
+
+input:-webkit-autofill {
+
+}
+
+*:focus {
+  outline: none;
+}
+
+//Flex properties
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
